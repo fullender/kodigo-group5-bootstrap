@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+      font-family:Montserrat, sans-serif; 
+}
+
+h2 { 
+  font-family:Montserrat, sans-serif; 
+  margin-bottom: 30px; 
+  font-weight:600;
+  }
+
+
+/*--testing background nav--*/
+.fixed-top {
+   
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+/*--images in the model--*/
+
+.images {
+   width: 100%;
+}
+
+#background {
+  background-image: url(../img/Background..jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat :no-repeat;
+  background-attachment: fixed;
+   background-blend-mode: color;
+  color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/*--Why tesla?--*/
+#whytesla {
+   background-image:url(../img/teslabg.webp);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 70% 90%; 
+    color: #fff;
+    padding:60px 0px 60px 0px;
+    
+    }
+
+#whytesla h2 { text-align: center; }
+
+#whytesla .blk-bg { 
+  
+ background: rgba(0, 0, 0, 0.8);
+ border:solid 1px #585858;
+ padding:20px;
+ margin:10px auto;
+ border-radius:4px;
+}
+
+.red-btn { 
+  background-color:#E82127; 
+  border-radius: 40px;
+  padding:10px 40px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:13px;
+  font-weight: bold;
+  margin-top:20px;
+  display:inline-block;
+  border:none;
+  }
+
+  .red-btn a { 
+    color: inherit; 
+    text-decoration: none; 
+    }
+
+  .red-btn a:hover { color: #ffffff !important; text-decoration: none;  }
+
+hr {
+  border-style: solid;
+  border-color: #000; 
+}
+
+#footer { padding-top:50px; }
+
+.footer-links {
+  flex-grow: 1;
+}
+
+.footer-links a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #424242;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: normal;
+  letter-spacing: 1.625px; 
+}
+
+#copyright {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+.logo-footer { display: none; }
+.footer-links a { margin-bottom: 10px; font-size: 11px; }
+
+}
